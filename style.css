@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-color: #0d192c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nft-card {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 24px;
+  }
+  
+  .conteiner {
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    width: 302px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .icon-view {
+    display: none;
+    padding: 136px 129px;
+  
+    background-size: auto;
+    background-color: cyan;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  
+  .conteiner:hover .icon-view {
+    display: inline;
+  }
+  
+  .title {
+    font-family: "Outfit", sans-serif;
+    border: none;
+    background-color: #15263f;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #00fff8;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+  
+  .description {
+    font-weight: 300;
+    font-size: 18px;
+    color: #8bacd9;
+    padding-top: 16px;
+    line-height: 26px;
+  }
+  .eth-time-box {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .eth-icon {
+    max-width: 100%;
+    padding-right: 6.48px;
+  }
+  
+  .eth {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00fff8;
+    display: inline-flex;
+  }
+  .img-icon {
+    max-width: 100%;
+    padding-right: 9.03px;
+  }
+  .time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9;
+    display: inline-flex;
+  }
+  hr {
+    height: 1px;
+    background-color: #2e405a;
+    border: none;
+  }
+  .creator {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .creator-avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    border: solid 1px white;
+    margin-right: 16px;
+  }
+  
+  .author {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9;
+    margin-right: 5px;
+  }
+  
+  .name {
+    border: none;
+    background-color: #15263f;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
