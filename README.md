@@ -28,8 +28,8 @@ This is a solution to the [NFT-Preview-Card-Component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL:https://khatias.github.io/nft-card/
+- Solution URL: [Solution URL here](https://github.com/khatias/nft-card/tree/master)
+- Live Site URL: [Live site URL here](https://khatias.github.io/nft-card/)
 
 ## My process
 
